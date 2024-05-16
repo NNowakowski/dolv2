@@ -15,7 +15,8 @@
   "dolores": "Dolores",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "Lar"
+    "home": "Lar",
+    "quotes": "Citações"
   },
   "pagination": {
     "next": "Próxima",
@@ -26,5 +27,10 @@
   "wikipedia": "Wikipédia",
   "similar": "Semelhante",
   "affiliate_link": "Link de afiliado",
-  "merch": "Mercadoria"
+  "merch": "Mercadoria",
+  "quotes": {
+    "title": "Citações",
+    "description": "Citações motivacionais e inspiradoras para mantê-lo ativo."
+  },
+  "author": "Autora"
 }

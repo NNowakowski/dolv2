@@ -7,7 +7,7 @@ import SEO from "@/components/SEO";
 import Layout from "@/layouts";
 import { SiteMetadata } from "@/data";
 import { cn } from "@/lib/utils";
-import { ThemeProvider } from "../theme-provider";
+import { ThemeProvider } from "@/app/theme-provider";
 
 const fontSans = FontSans({
   subsets: ["latin"],

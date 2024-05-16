@@ -15,7 +15,8 @@
   "dolores": "Dolores",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "Ev"
+    "home": "Ev",
+    "quotes": "Sitatlar"
   },
   "pagination": {
     "next": "Sonrakı",
@@ -26,5 +27,10 @@
   "wikipedia": "Vikipediya",
   "similar": "Oxşar",
   "affiliate_link": "Affiliate link",
-  "merch": "Mal"
+  "merch": "Mal",
+  "quotes": {
+    "title": "Sitatlar",
+    "description": "Sizi davam etdirmək üçün həvəsləndirici və ruhlandırıcı sitatlar."
+  },
+  "author": "Müəllif"
 }

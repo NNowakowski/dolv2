@@ -4,27 +4,33 @@
     "description": "Aprendiendo del pasado, construyendo el futuro"
   },
   "homepage": {
-    "title": "Bienvenidos a Doloresv2",
+    "title": "Bienvenidos a Dolores v2",
     "description": "Explora todas las nuevas características y mejoras de Dolores v2.",
     "cta": "Explora todos los proyectos"
   },
   "tldr": {
-    "title": "TL;DR",
-    "description": "Explicar temas complejos en términos simples. Obtenga resúmenes rápidos de varios temas."
+    "title": "Resumen",
+    "description": "Explicando temas complejos en términos simples. Obtenga resúmenes rápidos de varios temas."
   },
   "dolores": "Dolores",
   "navbar": {
-    "tldr": "TL;DR",
-    "home": "Hogar"
+    "tldr": "Resumen",
+    "home": "Inicio",
+    "quotes": "Citas"
   },
   "pagination": {
-    "next": "Próxima",
-    "previous": "Previa"
+    "next": "Siguiente",
+    "previous": "Anterior"
   },
   "browse_in_other_languages": "Navegar en otros idiomas",
   "source": "Fuente",
   "wikipedia": "Wikipedia",
   "similar": "Similar",
-  "affiliate_link": "Enlace de afiliado",
-  "merch": "Mercancías"
+  "affiliate_link": "Enlace del afiliado",
+  "merch": "Artículos",
+  "quotes": {
+    "title": "Citas",
+    "description": "Citas motivadoras e inspiradoras para seguir adelante."
+  },
+  "author": "Autora"
 }

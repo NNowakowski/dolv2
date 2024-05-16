@@ -15,7 +15,8 @@
   "dolores": "Dolores",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "Heim"
+    "home": "Heim",
+    "quotes": "Zitate"
   },
   "pagination": {
     "next": "Nächste",
@@ -26,5 +27,10 @@
   "wikipedia": "Wikipedia",
   "similar": "Ähnlich",
   "affiliate_link": "Affiliate-Link",
-  "merch": "Fan-Shop"
+  "merch": "Fan-Shop",
+  "quotes": {
+    "title": "Zitate",
+    "description": "Motivierende und inspirierende Zitate, die Sie am Laufen halten."
+  },
+  "author": "Autorin"
 }

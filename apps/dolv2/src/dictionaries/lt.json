@@ -15,7 +15,8 @@
   "dolores": "Dolores",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "Namai"
+    "home": "Namai",
+    "quotes": "Citatos"
   },
   "pagination": {
     "next": "Kitas",
@@ -26,5 +27,10 @@
   "wikipedia": "Vikipedija",
   "similar": "Panašus",
   "affiliate_link": "Filialo nuoroda",
-  "merch": "Prekės"
+  "merch": "Prekės",
+  "quotes": {
+    "title": "Citatos",
+    "description": "Motyvuojančios ir įkvepiančios citatos, kurios padės jums tęsti."
+  },
+  "author": "Autorius"
 }

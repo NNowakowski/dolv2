@@ -15,7 +15,8 @@
   "dolores": "Dolores",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "Rumah"
+    "home": "Rumah",
+    "quotes": "Petikan"
   },
   "pagination": {
     "next": "Seterusnya",
@@ -26,5 +27,10 @@
   "wikipedia": "Wikipedia",
   "similar": "serupa",
   "affiliate_link": "Pautan ahli gabungan",
-  "merch": "Barang dagangan"
+  "merch": "Barang dagangan",
+  "quotes": {
+    "title": "Petikan",
+    "description": "Petikan motivasi dan inspirasi untuk memastikan anda terus maju."
+  },
+  "author": "Pengarang"
 }

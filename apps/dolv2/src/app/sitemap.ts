@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1,
   }));
 
-  const i18nroutes = ["", "tldr"].map((route) => ({
+  const i18nroutes = ["", "tldr", "quotes"].map((route) => ({
     url: `${SiteMetadata.site_url}/en/${route}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as "weekly",

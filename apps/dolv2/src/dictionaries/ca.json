@@ -15,7 +15,8 @@
   "dolores": "Dolores",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "a casa"
+    "home": "a casa",
+    "quotes": "Cites"
   },
   "pagination": {
     "next": "Pròxim",
@@ -26,5 +27,10 @@
   "wikipedia": "Viquipèdia",
   "similar": "Similars",
   "affiliate_link": "Enllaç d'afiliat",
-  "merch": "Mercaderia"
+  "merch": "Mercaderia",
+  "quotes": {
+    "title": "Cites",
+    "description": "Cites motivadores i inspiradores per continuar endavant."
+  },
+  "author": "Autor"
 }

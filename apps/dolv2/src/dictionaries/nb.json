@@ -15,7 +15,8 @@
   "dolores": "Dolores",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "Hjem"
+    "home": "Hjem",
+    "quotes": "Sitater"
   },
   "pagination": {
     "next": "Neste",
@@ -26,5 +27,10 @@
   "wikipedia": "Wikipedia",
   "similar": "Lignende",
   "affiliate_link": "Affiliate link",
-  "merch": "Handelsvarer"
+  "merch": "Handelsvarer",
+  "quotes": {
+    "title": "Sitater",
+    "description": "Motiverende og inspirerende sitater for å holde deg i gang."
+  },
+  "author": "Forfatter"
 }

@@ -9,6 +9,10 @@ const NavbarLinksData: NavbarLinkType[] = [
     text: "tldr",
     href: "/tldr",
   },
+  {
+    text: "quotes",
+    href: "/quotes",
+  },
 ];
 
 export { NavbarLinksData };

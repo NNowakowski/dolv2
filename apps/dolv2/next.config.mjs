@@ -33,6 +33,31 @@ const nextConfig = {
         destination: "/en/github-emoji",
         permanent: true,
       },
+      {
+        source: "/quotes",
+        destination: "/en/quotes",
+        permanent: true,
+      },
+      {
+        source: "/:language/quote",
+        destination: "/:language/quotes",
+        permanent: true,
+      },
+      {
+        source: "/:language/quote/:id",
+        destination: "/:language/quotes/:id",
+        permanent: true,
+      },
+      {
+        source: "/:language/quotes/page/1",
+        destination: "/:language/quotes",
+        permanent: true,
+      },
+      {
+        source: "/:language/quote/page/:page",
+        destination: "/:language/quotes/page/:page",
+        permanent: true,
+      },
     ];
   },
 };

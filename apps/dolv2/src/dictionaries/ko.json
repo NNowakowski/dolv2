@@ -15,7 +15,8 @@
   "dolores": "돌로레스",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "집"
+    "home": "집",
+    "quotes": "인용 부호"
   },
   "pagination": {
     "next": "다음",
@@ -26,5 +27,10 @@
   "wikipedia": "위키피디아",
   "similar": "비슷한",
   "affiliate_link": "제휴 링크",
-  "merch": "상품"
+  "merch": "상품",
+  "quotes": {
+    "title": "인용 부호",
+    "description": "계속해서 동기를 부여하고 영감을 주는 인용문."
+  },
+  "author": "작가"
 }

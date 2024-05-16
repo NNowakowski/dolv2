@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { SiteMetadata, GetTldrCount, GetTldrList, i18nLanguages } from "@/data";
-import { TLDR_CHUNK_SIZE } from "../../[language]/tldr/default";
+import { TLDR_CHUNK_SIZE } from "@/app/[language]/tldr/default";
 
 const langaugeList = i18nLanguages.map((lang) => lang.short_code);
 

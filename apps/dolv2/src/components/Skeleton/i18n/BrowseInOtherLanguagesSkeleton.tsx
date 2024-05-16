@@ -1,6 +1,6 @@
 import { Skeleton } from "@/components/ui/skeleton";
 
-export default function TldrBrowseInOtherLanguagesSkeleton() {
+export default function BrowseInOtherLanguagesSkeleton() {
   return (
     <>
       <Skeleton className="h-10 w-1/2" />

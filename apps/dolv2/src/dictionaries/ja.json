@@ -15,7 +15,8 @@
   "dolores": "ドロレス",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "家"
+    "home": "家",
+    "quotes": "引用"
   },
   "pagination": {
     "next": "次",
@@ -26,5 +27,10 @@
   "wikipedia": "ウィキペディア",
   "similar": "似ている",
   "affiliate_link": "アフィリエイトリンク",
-  "merch": "商品"
+  "merch": "商品",
+  "quotes": {
+    "title": "引用",
+    "description": "あなたを前進させるための動機付けとインスピレーションを与える引用。"
+  },
+  "author": "著者"
 }

@@ -3,7 +3,7 @@ import SEO from "@/components/SEO";
 import TldrHome from "@/components/tldr/TldrHome";
 import { GetTldrList, GetTldrCount } from "@/data";
 import { GetDictionary } from "@/utils";
-import { TLDR_CHUNK_SIZE } from "../../default";
+import { TLDR_CHUNK_SIZE } from "@/app/[language]/tldr/default";
 
 // Metadata generation
 export async function generateMetadata({
@@ -53,7 +53,7 @@ export async function generateStaticParams(): Promise<
 // End of static generation
 
 // Page generation
-export default async function TldrEnPagePage({
+export default async function TldrPagePage({
   params,
 }: {
   params: { language: string; page: string };

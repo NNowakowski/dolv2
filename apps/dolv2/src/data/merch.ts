@@ -6,7 +6,7 @@ export async function GetMerch(): Promise<MerchType> {
     headers: {
       Authorization: `Token ${process.env.BACKEND_TOKEN ?? ""}`,
     },
-    next: { revalidate: 60 },
+    next: { revalidate: 3600 },
   } as RequestInit);
 
   if (!res.ok) {

@@ -6,12 +6,13 @@ import TldrRecommendationSkeleton from "@/components/Skeleton/tldr/TldrRecommend
 import TldrBookRecommendationSkeleton from "@/components/Skeleton/tldr/TldrBookRecommendationSkeleton";
 import TldrImageSkeleton from "@/components/Skeleton/tldr/TldrImageSkeleton";
 import MerchSkeleton from "@/components/Skeleton/Merch";
-import TldrRecommendation from "./TldrRecommendation";
-import TldrBookRecommendation from "./TldrBookRecommendation";
-import TldrImage from "./TldrImage";
+import TldrRecommendation from "@/components/tldr/TldrRecommendation";
+import TldrBookRecommendation from "@/components/tldr/TldrBookRecommendation";
+import TldrImage from "@/components/tldr/TldrImage";
+import BrowseInOtherLanguages from "@/components/i18n/BrowseInOtherLanguages";
+import BrowseInOtherLanguagesSkeleton from "@/components/Skeleton/i18n/BrowseInOtherLanguagesSkeleton";
 import Merch from "@/components/Merch";
 import Comment from "@/components/Comment";
-import { i18nLanguages } from "@/data";
 import { GetDictionary } from "@/utils";
 import type { TldrDataType } from "@/types";
 
@@ -59,20 +60,13 @@ export default async function TldrDetail({
             <h2 className="text-2xl font-bold">
               {dictionary.browse_in_other_languages}
             </h2>
-            <div>
-              {i18nLanguages
-                .filter((lang) => lang.short_code !== language)
-                .map((lang) => (
-                  <Link
-                    href={`/${lang.short_code}/tldr/${slug}`}
-                    key={lang.short_code}
-                  >
-                    <span
-                      className={`fi fi-${lang.flag_code} m-2 rounded text-3xl shadow-lg`}
-                    ></span>
-                  </Link>
-                ))}
-            </div>
+
+            <Suspense fallback={<BrowseInOtherLanguagesSkeleton />}>
+              <BrowseInOtherLanguages
+                active_language={language}
+                suffix_url={`/tldr/${slug}`}
+              />
+            </Suspense>
           </div>
 
           <Comment />

@@ -15,7 +15,8 @@
   "dolores": "דולורס",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "בית"
+    "home": "בית",
+    "quotes": "ציטוטים"
   },
   "pagination": {
     "next": "הַבָּא",
@@ -26,5 +27,10 @@
   "wikipedia": "ויקיפדיה",
   "similar": "דוֹמֶה",
   "affiliate_link": "קישור שותפים",
-  "merch": "סְחוֹרָה"
+  "merch": "סְחוֹרָה",
+  "quotes": {
+    "title": "ציטוטים",
+    "description": "ציטוטים מעוררי מוטיבציה ומעוררי השראה כדי להמשיך הלאה."
+  },
+  "author": "מְחַבֵּר"
 }

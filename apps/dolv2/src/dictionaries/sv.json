@@ -15,7 +15,8 @@
   "dolores": "Dolores",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "Hem"
+    "home": "Hem",
+    "quotes": "Citat"
   },
   "pagination": {
     "next": "Nästa",
@@ -26,5 +27,10 @@
   "wikipedia": "Wikipedia",
   "similar": "Liknande",
   "affiliate_link": "Affiliate länk",
-  "merch": "Handelsvaror"
+  "merch": "Handelsvaror",
+  "quotes": {
+    "title": "Citat",
+    "description": "Motiverande och inspirerande citat för att hålla dig igång."
+  },
+  "author": "Författare"
 }

@@ -1,10 +1,10 @@
 import { Skeleton } from "@/components/ui/skeleton";
-import BreadcrumbSkeleton from "../BreadcrumbSkeleton";
-import PageTitleSkeleton from "../PageTitleSkeleton";
-import TldrBrowseInOtherLanguagesSkeleton from "./TldrBrowseInOtherLanguagesSkeleton";
-import TldrRecommendationSkeleton from "./TldrRecommendationSkeleton";
-import TldrBookRecommendationSkeleton from "./TldrBookRecommendationSkeleton";
-import TldrImageSkeleton from "./TldrImageSkeleton";
+import BreadcrumbSkeleton from "@/components/Skeleton/BreadcrumbSkeleton";
+import PageTitleSkeleton from "@/components/Skeleton/PageTitleSkeleton";
+import BrowseInOtherLanguagesSkeleton from "@/components/Skeleton/i18n/BrowseInOtherLanguagesSkeleton";
+import TldrRecommendationSkeleton from "@/components/Skeleton/tldr/TldrRecommendationSkeleton";
+import TldrBookRecommendationSkeleton from "@/components/Skeleton/tldr/TldrBookRecommendationSkeleton";
+import TldrImageSkeleton from "@/components/Skeleton/tldr/TldrImageSkeleton";
 import MerchSkeleton from "@/components/Skeleton/Merch";
 
 export default function TldrDetailSkeleton() {
@@ -22,7 +22,7 @@ export default function TldrDetailSkeleton() {
           <Skeleton className="h-5 w-full" />
           <Skeleton className="h-5 w-full" />
 
-          <TldrBrowseInOtherLanguagesSkeleton />
+          <BrowseInOtherLanguagesSkeleton />
 
           <TldrRecommendationSkeleton />
         </div>

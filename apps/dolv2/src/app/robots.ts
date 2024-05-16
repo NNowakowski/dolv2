@@ -10,6 +10,7 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
     sitemap: [
       `${SiteMetadata.site_url}/sitemap.xml`,
       `${SiteMetadata.site_url}/en/tldr/sitemap/sitemap.xml`,
+      `${SiteMetadata.site_url}/en/quotes/sitemap/sitemap.xml`,
     ],
     host: SiteMetadata.site_url,
   };

@@ -17,7 +17,7 @@
     "version-packages": "pnpm changeset version && pnpm all:packages",
     "publish-packages": "pnpm all:packages && changeset version && changeset publish"
   },
-  "packageManager": "pnpm@9.0.6",
+  "packageManager": "pnpm@9.1.1",
   "engines": {
     "node": ">=18"
   },
@@ -35,7 +35,7 @@
     "husky": "latest",
     "prettier": "latest",
     "prettier-plugin-tailwindcss": "latest",
-    "turbo": "latest",
+    "turbo": "^1.13.3",
     "vercel-submodules": "^1.0.10"
   }
 }
