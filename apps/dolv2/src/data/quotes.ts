@@ -1,4 +1,4 @@
-import type { QuoteType } from "@/types";
+import type { QuoteType, AmazonBookType } from "@/types";
 
 export async function GetQuotesCount({
   language,
@@ -72,4 +72,54 @@ export async function GetQuoteData({
   }
 
   return (await res.json()) as QuoteType;
+}
+
+export async function GetQuoteRecommendation({
+  language,
+  id,
+}: {
+  language: string;
+  id: string;
+}): Promise<QuoteType[]> {
+  const res = await fetch(
+    `${process.env.BACKEND_URL ?? ""}/quotes/${language}/recommendation/${id}/`,
+    {
+      method: "GET",
+      headers: {
+        Authorization: `Token ${process.env.BACKEND_TOKEN ?? ""}`,
+      },
+      next: { revalidate: 2592000 },
+    } as RequestInit,
+  );
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch quotes recommendation");
+  }
+
+  return (await res.json()) as QuoteType[];
+}
+
+export async function GetQuoteBookRecommendation({
+  language,
+  id,
+}: {
+  language: string;
+  id: string;
+}): Promise<AmazonBookType[]> {
+  const res = await fetch(
+    `${process.env.BACKEND_URL ?? ""}/quotes/${language}/recommendation/book/${id}/`,
+    {
+      method: "GET",
+      headers: {
+        Authorization: `Token ${process.env.BACKEND_TOKEN ?? ""}`,
+      },
+      next: { revalidate: 2592000 },
+    } as RequestInit,
+  );
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch quotes recommendation");
+  }
+
+  return (await res.json()) as AmazonBookType[];
 }

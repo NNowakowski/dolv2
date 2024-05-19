@@ -1,21 +1,21 @@
 import Link from "@/components/Link";
 import Image from "@/components/Image";
-import { GetTldrBookRecommendation } from "@/data";
+import { GetQuoteBookRecommendation } from "@/data";
 import { GetDictionary } from "@/utils";
 import type { AmazonBookType } from "@/types";
 
-export default async function TldrBookRecommendation({
+export default async function QuoteBookRecommendation({
   language,
-  slug,
+  id,
 }: {
   language: string;
-  slug: string;
+  id: string;
 }) {
   const dictionary = await GetDictionary(language);
 
-  const tldrRecommendations = await GetTldrBookRecommendation({
+  const quoteRecommendations = await GetQuoteBookRecommendation({
     language,
-    slug,
+    id,
   });
 
   return (
@@ -25,19 +25,19 @@ export default async function TldrBookRecommendation({
       </p>
 
       <div className="grid grid-cols-2 gap-2">
-        {tldrRecommendations
+        {quoteRecommendations
           .slice(0, 4)
-          .map((tldrRecommendation: AmazonBookType) => (
-            <div key={tldrRecommendation.asin}>
-              <Link href={tldrRecommendation.link}>
+          .map((quoteRecommendation: AmazonBookType) => (
+            <div key={quoteRecommendation.asin}>
+              <Link href={quoteRecommendation.link}>
                 <Image
-                  src={tldrRecommendation.image}
-                  alt={tldrRecommendation.title}
+                  src={quoteRecommendation.image}
+                  alt={quoteRecommendation.title}
                   width={500}
                   height={500}
                   className="rounded-md shadow-lg h-full"
                   unoptimized
-                  title={tldrRecommendation.title}
+                  title={quoteRecommendation.title}
                 />
               </Link>
             </div>

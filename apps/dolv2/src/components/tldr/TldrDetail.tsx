@@ -56,18 +56,12 @@ export default async function TldrDetail({
             </p>
           </blockquote>
 
-          <div className="py-5">
-            <h2 className="text-2xl font-bold">
-              {dictionary.browse_in_other_languages}
-            </h2>
-
-            <Suspense fallback={<BrowseInOtherLanguagesSkeleton />}>
-              <BrowseInOtherLanguages
-                active_language={language}
-                suffix_url={`/tldr/${slug}`}
-              />
-            </Suspense>
-          </div>
+          <Suspense fallback={<BrowseInOtherLanguagesSkeleton />}>
+            <BrowseInOtherLanguages
+              active_language={language}
+              suffix_url={`/tldr/${slug}`}
+            />
+          </Suspense>
 
           <Comment />
 

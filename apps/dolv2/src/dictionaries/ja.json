@@ -1,26 +1,26 @@
 {
   "sitemetadata": {
-    "title": "ドロレス v2",
+    "title": "Dolores v2",
     "description": "過去から学び、未来を築く"
   },
   "homepage": {
-    "title": "ドロレス v2 へようこそ",
-    "description": "ドロレス v2 のすべての新機能と改善点をご覧ください。",
+    "title": "Dolores v2 へようこそ",
+    "description": "Dolores v2 のすべての新機能と改善点をご覧ください。",
     "cta": "すべてのプロジェクトを探索する"
   },
   "tldr": {
-    "title": "TL;DR",
+    "title": "要約",
     "description": "複雑なトピックを簡単な言葉で説明します。 さまざまなトピックの概要を簡単に入手できます。"
   },
-  "dolores": "ドロレス",
+  "dolores": "Dolores",
   "navbar": {
-    "tldr": "TL;DR",
-    "home": "家",
+    "tldr": "要約",
+    "home": "ホーム",
     "quotes": "引用"
   },
   "pagination": {
     "next": "次",
-    "previous": "前の"
+    "previous": "前"
   },
   "browse_in_other_languages": "他の言語で閲覧する",
   "source": "ソース",
@@ -30,7 +30,7 @@
   "merch": "商品",
   "quotes": {
     "title": "引用",
-    "description": "あなたを前進させるための動機付けとインスピレーションを与える引用。"
+    "description": "あなたを前進させるためのモチベーションとインスピレーションを与える引用です。"
   },
   "author": "著者"
 }

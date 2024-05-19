@@ -2,6 +2,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import BreadcrumbSkeleton from "@/components/Skeleton/BreadcrumbSkeleton";
 import PageTitleSkeleton from "@/components/Skeleton/PageTitleSkeleton";
 import BrowseInOtherLanguagesSkeleton from "@/components/Skeleton/i18n/BrowseInOtherLanguagesSkeleton";
+import CommentSkeleton from "@/components/Skeleton/CommentSkeleton";
 import TldrRecommendationSkeleton from "@/components/Skeleton/tldr/TldrRecommendationSkeleton";
 import TldrBookRecommendationSkeleton from "@/components/Skeleton/tldr/TldrBookRecommendationSkeleton";
 import TldrImageSkeleton from "@/components/Skeleton/tldr/TldrImageSkeleton";
@@ -23,6 +24,8 @@ export default function TldrDetailSkeleton() {
           <Skeleton className="h-5 w-full" />
 
           <BrowseInOtherLanguagesSkeleton />
+
+          <CommentSkeleton />
 
           <TldrRecommendationSkeleton />
         </div>

@@ -1,7 +1,10 @@
 import { Skeleton } from "@/components/ui/skeleton";
 import BreadcrumbSkeleton from "@/components/Skeleton/BreadcrumbSkeleton";
 import BrowseInOtherLanguagesSkeleton from "@/components/Skeleton/i18n/BrowseInOtherLanguagesSkeleton";
+import CommentSkeleton from "@/components/Skeleton/CommentSkeleton";
 import MerchSkeleton from "@/components/Skeleton/Merch";
+import QuoteBookRecommendationSkeleton from "@/components/Skeleton/quotes/QuoteBookRecommendationSkeleton";
+import QuoteRecommendationSkeleton from "@/components/Skeleton/quotes/QuoteRecommendationSkeleton";
 
 export default function QuoteDetailSkeleton() {
   return (
@@ -17,10 +20,16 @@ export default function QuoteDetailSkeleton() {
           <Skeleton className="h-5 w-1/2" />
 
           <BrowseInOtherLanguagesSkeleton />
+
+          <CommentSkeleton />
+
+          <QuoteRecommendationSkeleton />
         </div>
 
         <div className="col-span-12 md:col-span-4 space-y-5">
           <MerchSkeleton />
+
+          <QuoteBookRecommendationSkeleton />
         </div>
       </div>
     </>
