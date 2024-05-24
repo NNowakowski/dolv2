@@ -15,7 +15,13 @@ export async function generateSitemaps() {
   });
   const quotesPages = Math.ceil(quotesCount / QUOTES_CHUNK_SIZE);
 
-  return Array.from({ length: quotesPages }, (_, i) => i).map((page) => ({
+  return Array.from(
+    {
+      length:
+        (process.env.BUILD_MODE ?? "DEV") === "PRODUCTION" ? quotesPages : 1,
+    },
+    (_, i) => i,
+  ).map((page) => ({
     id: page,
   }));
 }
