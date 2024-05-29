@@ -10,12 +10,12 @@
   },
   "tldr": {
     "title": "TL;DR",
-    "description": "Komplexe Themen in einfachen Worten erklären. Erhalten Sie schnelle Zusammenfassungen verschiedener Themen."
+    "description": "Komplexe Themen in einfachen Worten erklärt. Erhalten Sie schnelle Zusammenfassungen verschiedener Themen."
   },
   "dolores": "Dolores",
   "navbar": {
     "tldr": "TL;DR",
-    "home": "Heim",
+    "home": "Startseite",
     "quotes": "Zitate"
   },
   "pagination": {
@@ -25,8 +25,8 @@
   "browse_in_other_languages": "Stöbern Sie in anderen Sprachen",
   "source": "Quelle",
   "wikipedia": "Wikipedia",
-  "similar": "Ähnlich",
-  "affiliate_link": "Affiliate-Link",
+  "similar": "Ähnliche",
+  "affiliate_link": "Partner-Link",
   "merch": "Fan-Shop",
   "quotes": {
     "title": "Zitate",
